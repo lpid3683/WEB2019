@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <title>Register 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+
+<body>
+    <script type="text/javascript" src="localStorage.js"></script>
+    <div class = "page">
+        <div class = "menu">
+                <div class = "dropdown">
+                    <button class = "dropbtn">Menu</button>
+                    <div class = "dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="Business.html">Business</a>
+                        <a href="Finances.html">Finance</a>
+                        <a href="Loans.html">Loans</a>
+                        <a href="index.html">Sign In</a>
+                    </div>
+                </div>
+        </div>
+
+        <div class = "section logo">
+                <a href="index.html"> <img src="Logo.jpg" alt="Commonwealth Bank Logo"> </a>
+            <!-- <p>Logo</p> -->
+        </div>
+
+        <div class = "section navbar">
+            <!-- <p>Navbar</p> -->
+            <div class="navigation">
+                <a href="index.html"><li>Home</li></a>
+                <a href="Business.html"><li>Business</li></a>
+                <a href="Finances.html"><li>Finances</li></a>
+                <a href="Loans.html"><li>Loans</li></a>
+                <a href="index.html"><li>Sign In</li></a>
+            </div>
+        </div>
+
+        <div class = "section search">
+            <input class = "search_input" type="text" placeholder="Search..">
+            <!-- <p>Search</p> -->
+        </div>
+
+        <div class="registration_block"> 
+            <img src="BG.jpg" alt="Background_image">
+        </div>
+
+        <div class="registration_description"> 
+            <h1>Register an account with us</h1>
+            <p>Thank you for deciding to join CommBank. Use our fantastic services to utilise your money at it's highest potential.
+            <p>Before creating your account please ensure that you are; Over the age of 14, have an Australian residence and have a source of ID ready (Driver's licence, passport, birth certificate)</p>
+            <p>To save time, we can complete a secure ID check online and set you up in NetBank (Australia's #1 online bank), so there's no need to visit a branch. Lets get started.</p>
+            </p>
+        </div>
+
+        <div class="registration_background">
+        <div class="form_container">
+                <form class="form-inline" action="Register2.html">
+                    <h1 style = "text-align:left;">Step 1 - Let's get to know you</h1>
+                    <label for="account_number">Account Number:</label>
+                    <input class="input_box" type="text" id="account_number" placeholder="Enter account number" name="account_number">
+                    <label for="first_name">First Name:</label>
+                    <input class="input_box" type="text" id="first_name" placeholder="Enter first name" name="first_name">
+                    <label for="middle_name">Middle Name:</label>
+                    <input class="input_box" type="text" id="middle_name" placeholder="Enter middle name" name="middle_name">
+                    <label for="last_name">Last Name:</label>
+                    <input class="input_box" type="text" id="last_name" placeholder="Enter last name" name="last_name">
+                    <label for="dob">Date of Birth:</label>
+                    <input class="input_box" type="date" id="dob" placeholder="Enter date of birth" name="dob">
+                    <label for="email">Email:</label>
+                    <input class="input_box" type="email" id="email" placeholder="Enter email" name="email">
+                    <label for="mobile">Phone Number:</label>
+                    <input class="input_box" type="text" id="mobile" placeholder="Enter phone number" name="mobile">
+                    <label for="password">Password:</label>
+                    <input class="input_box" type="password" id="password" placeholder="Enter password" name="password"> 
+                    <p class = "li_title"> Password Requirements </p>
+                    <ul>
+                        <li>Minimum of 8 characters in length.</li>
+                        <li>Contain at least 1 uppercase character and 1 digit.</li>
+                        <li>Contain a special character (e.g. ! @ # ? ]) </li>
+                    </ul>
+                    <br>
+                    <input class="button_style3" type="submit" value="Next Page >" onclick="store()"/> 
+                </form>
+               
+        
+                <div class="completion_bar">
+                        <p class = "completion_bar_title">Completion 20%</p>
+                        <div class="completion_bar_white"> </div>
+                        <div class="completion_bar_black"> </div>    
+                </div>
+            </div>
+            </div>
+
+
+        <div class = "section footer">
+            <h3>About Us</h3>
+            <a href="About.html"><li>About Commbank</li></a>
+            <a href="Our_Company.html"><li>Our Company</li></a>
+            <a href="Newsroom.html"><li>Newsroom</li></a>
+            <a href="Careers.html"><li>Careers</li></a>
+            <a href="Contact.html"><li>Contact</li></a>
+            <!-- <p>Footer</p> -->
+        </div>
+
+        <div class = "section footer_small">
+            <h3>About Us</h3>
+            <a href="About.html"><li>About Commbank</li></a>
+                <a href="Contact.html"><li>Contact</li></a>
+            <!-- <p>Footer_small</p> -->
+        </div>
+    
+    </div>
+ 
+</body>
+</html>
